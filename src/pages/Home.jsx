@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <Facts />
+      {/* <Facts />
       <Courses />
-      <Instructor />
+      <Instructor /> */}
     </>
   );
 };

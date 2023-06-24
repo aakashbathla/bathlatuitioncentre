@@ -15,8 +15,8 @@ const Footer = () => {
                   <i className="fa fa-phone"></i>
                 </div>
                 <div className="contact-text">
-                  <h6>+1 5687485</h6>
-                  <p>Mon-Fri 9am-6pm</p>
+                  <h6>+91 9817607770</h6>
+                  <p>Mon-Sat 2pm-8pm</p>
                 </div>
               </div>
               <div className="col-md-4 d-flex">
@@ -24,8 +24,7 @@ const Footer = () => {
                   <i className="fas fa-envelope"></i>
                 </div>
                 <div className="contact-text">
-                  <h6>info@learnplus.com</h6>
-                  <p>Online support</p>
+                  <h6>bathlatuitioncentre@gmail.co</h6>
                 </div>
               </div>
               <div className="col-md-4 d-flex">
@@ -33,8 +32,10 @@ const Footer = () => {
                   <i className="fa fa-map"></i>
                 </div>
                 <div className="contact-text">
-                  <h6>New York, USA</h6>
-                  <p>NY 10012, US</p>
+                  <h6>
+                    Opposite to Sanatan Dharam Mandir, Model Town, Panipat
+                  </h6>
+                  <p>132103, Haryana, India</p>
                 </div>
               </div>
             </div>
@@ -71,8 +72,8 @@ const Footer = () => {
             <div className="row">
               <div className="links-pages  col-sm-6">
                 <h3>
-                  <Link to="/" className=" text-uppercase fs-3 fw-bold">
-                    <span>lrn</span>plus
+                  <Link to="/" className="fs-3 fw-bold">
+                    <span>Bathla</span>TuitionCenter
                   </Link>
                 </h3>
                 <ul className="navbar-nav ">
@@ -81,7 +82,7 @@ const Footer = () => {
                       Home
                     </Link>
                   </li>
-                  <li className="nav-item  ">
+                  {/* <li className="nav-item  ">
                     <Link className="nav-link" to="/courses">
                       Courses
                     </Link>
@@ -100,7 +101,7 @@ const Footer = () => {
                     <Link to="/login" className="nav-link">
                       Log In
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="nav-item ">
                     <Link className="nav-link" to="/contact">
                       Contact
@@ -109,24 +110,25 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="links-info  col-sm-6 mt-4 mt-sm-0">
-                <h3>learn plus</h3>
+                <h3>Privacy Policy</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestiae natus labore laudantium esse accusantium corporis
-                  delectus rem nam corrupti ipsa velit culpa sint veniam
-                  dignissimos incidunt itaque maiores, sed laborum odio iure.
-                  Illum veniam eius dolorem nisi delectus atque, aliquam facilis
-                  debitis earum illo modi temporibus officiis eveniet ullam
-                  omnis quia{" "}
+                  At Bathla Tuition Centre, we respect your privacy. Please
+                  refer to our Privacy Policy for information on how we collect,
+                  use, and protect your personal data.
+                </p>
+                <h3>Terms of Service</h3>
+                <p>
+                  By using this website, you agree to comply with and be bound
+                  by our Terms of Service. Please review the terms carefully
+                  before accessing or using our website.
                 </p>
               </div>
             </div>
           </div>
           <div className="footer-copyright col-12 text-center py-3 ">
             <p>
-              &copy;{new Date().getFullYear()} by
-              <a href="https://github.com/kamalheydari"> kamal heydari</a>, All
-              rights reserved
+              Copyright &copy;{new Date().getFullYear()} Bathla Tuition Centre |
+              All rights reserved
             </p>
           </div>
         </div>

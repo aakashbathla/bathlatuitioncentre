@@ -5,7 +5,7 @@ import Breadcrumb from "../components/breadcrumb/Breadcrumb";
 const Contact = () => {
   return (
     <>
-      <Breadcrumb current='Contact' />
+      <Breadcrumb current="Contact" />
       <section className="contact">
         <div className="container">
           <div className="row">
@@ -18,7 +18,8 @@ const Contact = () => {
                   </div>
                   <div className="item-text">
                     <h5>Addres</h5>
-                    <p>New York, USA 12 st</p>
+                    <p className="mb-0">Opposite to Sanatan Dharam Mandir,</p>
+                    <p>Model Town, Panipat</p>
                   </div>
                 </div>
                 <div className="contact-item d-flex mb-2 ">
@@ -27,7 +28,7 @@ const Contact = () => {
                   </div>
                   <div className="item-text">
                     <h5>Phone</h5>
-                    <p>+1 5687485</p>
+                    <p>+91 9817607770</p>
                   </div>
                 </div>
                 <div className="contact-item d-flex mb-2 ">
@@ -36,14 +37,16 @@ const Contact = () => {
                   </div>
                   <div className="item-text">
                     <h5>Email</h5>
-                    <p>info@learnplus.com</p>
+                    <p>bathlatuitioncentre@gmail.com</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-6">
               <div className="contact-form box">
-                <h2 className="text-center fs-4 fw-bold mb-5">Leave a Message</h2>
+                <h2 className="text-center fs-4 fw-bold mb-5">
+                  Leave a Message
+                </h2>
                 <form>
                   <div className="form-group mb-3">
                     <input

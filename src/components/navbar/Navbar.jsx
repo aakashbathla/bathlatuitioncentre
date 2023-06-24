@@ -6,13 +6,8 @@ import { useGlobalContext } from "../../context/context";
 import "./navbar.css";
 
 const Navbar = () => {
-  const {
-    toggleSubmenu,
-    openSidebar,
-    isSidebar,
-    closeSidebar,
-    isSubmenu,
-  } = useGlobalContext();
+  const { toggleSubmenu, openSidebar, isSidebar, closeSidebar, isSubmenu } =
+    useGlobalContext();
 
   return (
     <header className="header py-2">
@@ -23,8 +18,8 @@ const Navbar = () => {
       <nav className="navbar p-0">
         <div className="container d-flex justify-content-between ">
           <div className="navbar-brand">
-            <Link to="/" className=" text-uppercase fs-3 fw-bold">
-              <span>lrn</span>plus
+            <Link to="/" className="fs-3 fw-bold">
+              <span>Bathla</span>TuitionCentre
             </Link>
           </div>
           <button
@@ -56,7 +51,7 @@ const Navbar = () => {
                   Home
                 </Link>
               </li>
-              <li className="nav-item me-5 ">
+              {/* <li className="nav-item me-5 ">
                 <Link
                   onClick={closeSidebar}
                   className="nav-link px-3 px-lg-0"
@@ -98,7 +93,7 @@ const Navbar = () => {
                     </Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item ">
                 <Link
                   onClick={closeSidebar}
